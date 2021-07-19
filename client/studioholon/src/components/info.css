@@ -1,0 +1,12 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    letter-spacing: normal;
+    line-height: 2.5em;
+    margin-bottom: 2em;
+}
