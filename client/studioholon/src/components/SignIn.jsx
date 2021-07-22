@@ -1,23 +1,21 @@
 import React from 'react';
-import {Button, TextField} from '@material-ui/core';
-import {makeStyles, createTheme, ThemeProvider, createMuiTheme} from '@material-ui/core/styles';
-import Box from '@material-ui/core/Box';
+import {TextField, Box} from '@material-ui/core';
+import {makeStyles, ThemeProvider, createMuiTheme} from '@material-ui/core/styles';
+import PurpleButton from './PurpleButton';
 
 const theme = createMuiTheme({
     palette: {
-        primary:{
-            main:'#4C4C6D'
+        primary: {
+            main: '#4C4C6D'
         }
     },
     direction: 'rtl',
+
 })
 
 const useStyles = makeStyles({
     textField: {
-        width: '20rem',
-    },
-    Button: {
-        width: '15rem'
+        width: '20rem'
     }
 });
 
@@ -25,14 +23,14 @@ export default function SignIn(props) {
     const classes = useStyles();
     return (
         <div>
-        <h1>כניסה</h1>
-         <ThemeProvider theme={theme}>
-            <Box display="flex" flexDirection='column'>
+            <h1>כניסה</h1>
+            <ThemeProvider theme={theme}>
+                <Box display="flex" flexDirection='column' padding='2rem'>
                     <Box mt={5}>
                         <TextField
-                            id="outlined-basic"     
+                            id="outlined-basic"
                             label="שם משתמש"
-                            variant="outlined"  
+                            variant="outlined"
                             className={classes.textField}/>
                     </Box>
                     <Box mt={5}>
@@ -42,14 +40,10 @@ export default function SignIn(props) {
                             variant="outlined"
                             className={classes.textField}/>
                     </Box>
-                <Box mt={5}>
-                    <Button
-                        variant="contained"
-                        color="primary"
-                        size='large'
-                        className={classes.textField}>כניסה</Button>
+                    <Box mt={5}>
+                        <PurpleButton variant='contained' size='large' label='כניסה' color='primary'></PurpleButton>
+                    </Box>
                 </Box>
-            </Box>
             </ThemeProvider>
         </div>
     );

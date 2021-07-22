@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #FFE194;
 }
 
 .App-logo {
@@ -44,4 +45,19 @@
   justify-content: center;
   align-items: flex-end;
 
+}
+
+.Mainflexbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.nearbyComponents{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: space-around;
 }

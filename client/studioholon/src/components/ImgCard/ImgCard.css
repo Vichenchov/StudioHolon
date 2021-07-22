@@ -1,0 +1,54 @@
+#drawings{
+    height: 14rem;
+    width: 24rem;
+    border: 0;
+    
+}
+
+#hoverImg{
+    padding: 0 1.5rem;
+    color: #B8DFD8;
+    margin-top: 1rem;
+}
+
+#CardImg{
+    position: static;
+    height: 14rem;
+    width: 24rem;
+    transform: rotate(0);
+    border-radius: .25rem;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#CardLabel{
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+}
+
+#hoverImg:hover{   
+    color: #FFE194; 
+}
+
+#positionNum{
+    position: absolute;
+    top: 0;
+    font-size: large;
+    margin-top: 0.5rem;
+}
+
+h3{
+    padding-top: 2rem;
+}
+
+.first{
+    margin-bottom: 5rem;
+}
+
+.second{
+    margin-bottom: 2.5rem;
+}
+
+.thired{
+    margin-bottom: 0;
+}

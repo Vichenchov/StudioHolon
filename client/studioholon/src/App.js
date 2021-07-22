@@ -5,7 +5,12 @@ import rtl from 'jss-rtl';
 import {StylesProvider, jssPreset, ThemeProvider} from '@material-ui/core/styles';
 import Theme from './components/CustomTheme';
 import SignIn from './components/SignIn';
-import Info from './components/info';
+import Info from './components/Info/info';
+import MainUpperBar from './components/MainUpperBar/MainUpperBar';
+import Bottom from './components/BottomDesign/Bottom';
+import WinnersDrawings from './components/WinnersDrawings/WinnersDrawings';
+import Box from '@material-ui/core/Box';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Configure JSS
 const jss = create({
@@ -20,10 +25,15 @@ function App() {
         <ThemeProvider theme={Theme}>
             <StylesProvider jss={jss}>
                 <div className="App">
+                    <Box className='Mainflexbox'>
+                        <MainUpperBar/>
+                        <Box className='nearbyComponents'>
+                            <SignIn/>
+                            <Info/></Box>
+                        <WinnersDrawings/>
 
-                    <SignIn/>
-                    <Info/>
-
+                        <Bottom/>
+                    </Box>
                 </div>
             </StylesProvider>
         </ThemeProvider>

@@ -1,0 +1,30 @@
+.custom-shape-divider-bottom-1626942561 {
+    width: 100%;
+    /* overflow: hidden; */
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626942561 svg {
+    position: relative;
+    display: block;
+    width: calc(201% + 1.3px);
+    height: 111px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1626942561 .shape-fill {
+    fill: #4C4C6D;
+}
+
+
+.MadeBy{
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    top: 5px;
+    right: 1rem;
+    color: #fff;
+    font-size: small;
+    transform: rotate(180deg);
+}
+
