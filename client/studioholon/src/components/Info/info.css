@@ -3,12 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+
 }
 
 label{
     letter-spacing: normal;
     line-height: 2.5em;
     margin-bottom: 2em;
+    padding-top: 1rem;
 }
 

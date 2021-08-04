@@ -16,6 +16,9 @@ const theme = createMuiTheme({
 const useStyles = makeStyles({
     textField: {
         width: '20rem'
+    },
+    purpleButton:{
+        paddingTop:'2rem'
     }
 });
 
@@ -26,21 +29,19 @@ export default function SignIn(props) {
             <h1>כניסה</h1>
             <ThemeProvider theme={theme}>
                 <Box display="flex" flexDirection='column' padding='2rem'>
-                    <Box mt={5}>
+                    <Box pb={4}>
                         <TextField
-                            id="outlined-basic"
+                             id="standard-basic"
                             label="שם משתמש"
-                            variant="outlined"
                             className={classes.textField}/>
                     </Box>
-                    <Box mt={5}>
+                    <Box pb={4}>
                         <TextField
-                            id="outlined-basic"
+                            id="standard-basic"
                             label="סיסמא"
-                            variant="outlined"
                             className={classes.textField}/>
                     </Box>
-                    <Box mt={5}>
+                    <Box mt={7}>
                         <PurpleButton variant='contained' size='large' label='כניסה' color='primary'></PurpleButton>
                     </Box>
                 </Box>
