@@ -13,3 +13,8 @@ label{
     padding-top: 1rem;
 }
 
+@media (max-width: 415px){
+    .info{
+        margin-top: 8rem;
+    }
+}

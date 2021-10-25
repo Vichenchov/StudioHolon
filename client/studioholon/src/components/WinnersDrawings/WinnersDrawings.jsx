@@ -5,10 +5,10 @@ import './WinnersDrawings.css';
 
 export default function WinnersDrawings(props) {
     return (
-        <div>
+        <div className='sectionColor'>
             <h3>זוכי החודש</h3>
             <Box className='flexBox'>
-            <ImgCard
+                <ImgCard
                     class='thired'
                     img='https://i.insider.com/5d8e6ec26f24eb50bc6d292a?width=700'
                     cardLabel='אסף דניאל'
@@ -26,7 +26,7 @@ export default function WinnersDrawings(props) {
                     cardLabel='יוסי כץ'
                     age='20'
                     WinPlace='2'/>
-               
+
             </Box>
         </div>
     )

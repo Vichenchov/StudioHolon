@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #FFE194;
+  background-color: #FFF8E5;
 }
 
 .App-logo {
@@ -53,11 +53,37 @@
 }
 
 .nearbyComponents{
-  margin-top: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
   align-content: space-around;
+}
+
+.vl{
+  border-left: 1px solid black;
+  height: 350px;
+}
+
+@media (max-width: 415px){
+  .vl{
+    display: none;
+  }
+  .nearbyComponents{
+    padding: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 955px) and (min-width: 400px) {
+  .vl{
+    display: none;
+  }
+}
+
+h1,h2,h3{
+  color: #150050;
 }

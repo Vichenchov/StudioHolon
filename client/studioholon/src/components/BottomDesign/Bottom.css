@@ -3,6 +3,7 @@
     /* overflow: hidden; */
     line-height: 0;
     transform: rotate(180deg);
+    
 }
 
 .custom-shape-divider-bottom-1626942561 svg {
@@ -11,20 +12,28 @@
     width: calc(201% + 1.3px);
     height: 111px;
     transform: rotateY(180deg);
+    
 }
 
 .custom-shape-divider-bottom-1626942561 .shape-fill {
-    fill: #4C4C6D;
+    fill: #630A10;
+    
 }
 
 
 .MadeBy{
     font-family: 'Caveat', cursive;
-    position: absolute;
-    top: 5px;
-    right: 1rem;
-    color: #fff;
-    font-size: small;
+    /* position: absolute; */
+    /* top: 5px; */
+    /* right: 1rem; */
+    /* right: 0 5px 0; */
+    color: #00A19D;
+    font-size: medium;
     transform: rotate(180deg);
+}
+
+.main{
+    margin-top: 3.5rem;
+    
 }
 

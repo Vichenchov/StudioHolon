@@ -4,4 +4,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom: 6rem;
+}
+
+.sectionColor{
+    background-color: #F4D19B;
+    box-shadow: 0 10px 20px -6px #777;
+    
+    /* border-radius: 25px;
+    margin: 3rem; */
 }

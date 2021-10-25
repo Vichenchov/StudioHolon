@@ -13,7 +13,7 @@
 }
 
 .custom-shape-divider-top-1626901056 .shape-fill {
-    fill: #4C4C6D;
+    fill: #630A10;
 }
 
 
@@ -22,7 +22,7 @@
     width: 45%;
     top: 0.5rem;
     font-size: 3rem;
-    color: #B8DFD8;
+    color: #FFB344;
 }
 
 img{
@@ -33,4 +33,14 @@ img{
     left: 11%;
     transform: rotate(-20deg);
     
+}
+
+/* responsive design */
+/* iphon 8 + */
+@media (max-width: 560px) {
+    .brand{
+        font-size: xx-large;
+        right: 9px;
+        top: 10px;
+     }
 }

@@ -1,54 +1,124 @@
-#drawings{
+#drawings {
     height: 14rem;
     width: 24rem;
     border: 0;
-    
+
 }
 
-#hoverImg{
+#hoverImg {
     padding: 0 1.5rem;
     color: #B8DFD8;
     margin-top: 1rem;
 }
 
-#CardImg{
+#CardImg {
     position: static;
     height: 14rem;
     width: 24rem;
     transform: rotate(0);
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     box-shadow: 0 10px 6px -6px #777;
 }
 
-#CardLabel{
+#CardLabel {
     font-size: small;
     position: absolute;
     bottom: 0;
 }
-
-#hoverImg:hover{   
-    color: #FFE194; 
+#hoverImg:hover {
+    color: #FFE194;
 }
 
-#positionNum{
+#positionNum {
     position: absolute;
     top: 0;
     font-size: large;
     margin-top: 0.5rem;
 }
 
-h3{
+h3 {
     padding-top: 2rem;
 }
 
-.first{
+.first {
     margin-bottom: 5rem;
 }
 
-.second{
-    margin-bottom: 2.5rem;
+.second {
+    margin-bottom: 1rem;
 }
 
-.thired{
-    margin-bottom: 0;
+.thired {
+    margin-bottom: -4rem;
+}
+@media screen and (max-width: 770px) {
+    .first,
+    .second,
+    .thired {
+        position: absolute;
+        margin-bottom: 0;
+    }
+
+    .first {
+        bottom: 13rem;
+    }
+
+    .second {
+        bottom: 12rem;
+    }
+
+    .thired {
+        top: 28rem;
+    }
+
+    #CardImg,
+    #drawings {
+        height: 12rem;
+        width: 21rem;
+    }
+}
+@media screen and (max-width: 1310px) and (min-width: 770px) {
+    .second {
+        bottom: 15rem;
+        left: 13rem;
+
+    }
+
+    .thired {
+        top: 12rem;
+        right: 18rem;
+    }
+
+}
+@media screen and (max-width: 880px) and (min-width: 756px) {
+
+    .first {
+        bottom: 10rem;
+    }
+
+    .second {
+        bottom: 15rem;
+        right: 0;
+    }
+
+    .thired {
+        top: 31rem;
+        right: 0;
+
+    }
+    @media only screen and (device-width: 768px) {
+        .first {
+            bottom: 0;
+        }
+        .second {
+            bottom: 7rem;
+            right: -12rem;
+        }
+
+        .thired {
+            top: 17rem;
+            right: 23rem;
+
+        }
+    }
 }

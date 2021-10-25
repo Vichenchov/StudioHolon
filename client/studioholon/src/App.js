@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import {create} from 'jss';
 import rtl from 'jss-rtl';
@@ -11,6 +10,7 @@ import Bottom from './components/BottomDesign/Bottom';
 import WinnersDrawings from './components/WinnersDrawings/WinnersDrawings';
 import Box from '@material-ui/core/Box';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 // Configure JSS
 const jss = create({
@@ -29,6 +29,7 @@ function App() {
                         <MainUpperBar/>
                         <Box className='nearbyComponents'>
                             <SignIn/>
+                            <div className='vl'></div>
                             <Info/></Box>
                         <WinnersDrawings/>
 

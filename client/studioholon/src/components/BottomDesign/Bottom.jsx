@@ -3,7 +3,7 @@ import './Bottom.css';
 
 export default function Bottom() {
     return (
-        <div>
+        <div className='main'>
             <div class="custom-shape-divider-bottom-1626942561">
                 <svg
                     data-name="Layer 1"
