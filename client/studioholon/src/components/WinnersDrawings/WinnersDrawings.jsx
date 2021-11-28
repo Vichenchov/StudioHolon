@@ -16,7 +16,7 @@ export default function WinnersDrawings(props) {
                     WinPlace='3'/>
                 <ImgCard
                     class='first'
-                    img='https://www.loftaholics.com/wp-content/uploads/2020/11/photos.jpg'
+                    img='https://media.wired.com/photos/5fb70f2ce7b75db783b7012c/125:94/w_2375,h_1786,c_limit/Gear-Photos-597589287.jpg'
                     cardLabel='מקס ויבנצוב'
                     age='21'
                     WinPlace='1'/>
